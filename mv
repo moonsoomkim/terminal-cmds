@@ -1,0 +1,3 @@
+#Mac terminal bash command mv
+
+for f in *.js; do mv ./"$f" "${f/.js/.js_txt}";done
